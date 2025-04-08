@@ -497,6 +497,8 @@ To remove an entry, click on the cross button <Icon name="x" classes="ph-bold" /
 
 Entries from multiple-choice relational fields can be reordered, indicated by a drag button <Icon name="dots-six-vertical" classes="ph-bold" />. To move an entry, click and hold it, drag it to the desired position, then release it.
 
+When you click on a relation's name to edit it in the modal, any changes you make to its fields (such as the title field) or its publication status are immediately reflected in the relation selection area of the parent content. This allows you to see exactly how your updates will appear in the context of the parent content before saving the parent entry.
+
 </TabItem>
 
 </Tabs>
@@ -505,6 +507,8 @@ Entries from multiple-choice relational fields can be reordered, indicated by a 
 - Not all entries are listed by default: more can be displayed by clicking on the **Load more** button. Also, instead of choosing an entry by scrolling the list, you can click any relational field drop-down list and type to search a specific entry.
 
 - Click on the name of an entry to display a modal from where you will be able to edit the relational field's content-type. For now, you can only edit a relation on-the-fly and not create a new one.
+
+- When editing a relation in its modal, any changes you make (such as updating the relation's name or publication status) are immediately reflected in the parent content editor, even before saving the parent entry. This real-time feedback helps you maintain consistency in your content.
 :::
 
 :::note
@@ -531,3 +535,4 @@ You can delete content by deleting any entry of a collection type, or the defaul
 
 :::tip
 You can delete entries from the list view of a collection type, by clicking on <Icon name="dots-three-outline" />  on the right side of the entry's record in the table, then choosing the <Icon name="trash"/> **Delete document** button.<br/>If [Internationalization](/cms/features/internationalization) is enabled for the content-type, **Delete document** deletes all locales while **Delete locale** only deletes the currently listed locale.
+:::
